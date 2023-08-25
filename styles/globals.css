@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .section_padding-x {
+    @apply px-[32px] xl:px-[80px]
+  }
+}

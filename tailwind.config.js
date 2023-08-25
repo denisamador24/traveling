@@ -8,7 +8,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        denis: '#8d8f8621',
         primary: {
           200: '#8ADBF0',
           500: '#48B7D6D6',
@@ -21,7 +20,8 @@ module.exports = {
           800: '#333',
           600: '#636363',
           500: '#8F8F8F',
-          100: '#faf0f073'
+          200: '#faf0f073',
+          100: '#F8F8F8'
         }
       },
       fontFamily: {
@@ -30,10 +30,10 @@ module.exports = {
         Lato: ['Lato', 'sans-serif']
       },
       screens: {
-        sm: 480,
-        md: 768,
-        lg: 1024,
-        xl: 1336
+        sm: '480px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1336px'
       }
     },
   },
