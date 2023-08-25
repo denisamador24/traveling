@@ -48,8 +48,12 @@ const Trend = () => {
   return (
     <section className='section_padding-x my-[105px]'>
       <div>
+
+        {/* title */}
         <h2 className='font-Lato text-[36px] font-bold'>Popular Destinations</h2>
         <p className='font-Lato text-[16px]'>Vacaions to make your experience enjoyable in Indonesia!</p>
+
+        {/* place list */}
         <ul className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-[60px]'>
           {placesData.map((place, index) => (
             <li key={index}>
