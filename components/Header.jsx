@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-import '@/styles/header.css';
 
 const Header = () => {
   return (

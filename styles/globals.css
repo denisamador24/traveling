@@ -4,6 +4,15 @@
 
 @layer base {
   .section_padding-x {
-    @apply px-[32px] xl:px-[80px]
+    @apply px-[32px] xl:px-[80px];
   }
+}
+
+.bg-gradient_header {
+  background: linear-gradient(0deg, white 0%, #e9fbff 76%);
+}
+
+.bg-gradient_shooseUs {
+  background: #48b7d6d6;
+  filter: blur(380px);
 }

@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+  .products {
+    @apply flex py-4 flex-col gap-6;
+  }
+
+  .products .card {
+    @apply p-4 flex gap-4 items-center;
+  }
+
+  .products .card:hover {
+    @apply bg-white rounded-lg shadow-lg;
+  }
+
+  .products .card img {
+    @apply p-3 rounded-lg bg-white;
+  }
+
+  .products .card h3 {
+    @apply font-Lato font-bold text-[20px] text-gray-900;
+  }
+
+  .products .card p {
+    @apply font-Lato text-gray-600;
+  }
+}

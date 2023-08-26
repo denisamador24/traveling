@@ -5,7 +5,7 @@ const Hero = () => {
       <div className=" flex-1 flex flex-col justify-center">
 
         {/* content */}
-        <h1 className="max-w-[600px] text-[56px] font-bold font-Poppins leading-[70px] text-gray-800">
+        <h1 className="max-w-[600px] text-[44px] lg:text-[56px] font-bold font-Poppins leading-[70px] text-gray-800">
           Start your journey by one click, explore beautiful world!
         </h1>
         <p className="max-w-[500px] mt-4 text-[16px] font-Poppins font-normal leading-[27px]">
