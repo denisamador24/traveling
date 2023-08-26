@@ -25,3 +25,9 @@
     @apply font-Lato text-gray-600;
   }
 }
+
+@layer components {
+  h2 {
+    @apply font-Lato font-bold text-[36px] text-gray-900;
+  }
+}

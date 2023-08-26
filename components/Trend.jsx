@@ -50,7 +50,7 @@ const Trend = () => {
       <div>
 
         {/* title */}
-        <h2 className='font-Lato text-[36px] font-bold'>Popular Destinations</h2>
+        <h2>Popular Destinations</h2>
         <p className='font-Lato text-[16px]'>Vacaions to make your experience enjoyable in Indonesia!</p>
 
         {/* place list */}

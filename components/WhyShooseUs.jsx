@@ -9,7 +9,7 @@ const WhyShooseUs = () => {
       </div>
 
       <div className="flex-1">
-        <h2 className='font-Lato font-bold text-[36px] text-gray-900'>Why Choose Us</h2>
+        <h2>Why Choose Us</h2>
         <p className="font-Lato text-[20px] text-gray-900">Enjoy different experiences in every place you visit and discover new and affordable adventures of course.</p>
 
         {/* products */}
