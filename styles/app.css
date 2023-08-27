@@ -1,6 +1,23 @@
 @tailwind components;
 
 @layer components {
+  h2 {
+    @apply font-Lato font-bold text-[36px] text-gray-900;
+  }
+
+  .btn {
+    @apply min-h-[34px] font-Lato text-[16px] rounded-md;
+  }
+
+  .btn--primary {
+    @apply text-white bg-primary-600;
+  }
+
+  .btn--secondary {
+    @apply text-primary-600 bg-white;
+  }
+
+  /* products in Trend section */
   .products {
     @apply flex py-4 flex-col gap-6;
   }
@@ -24,10 +41,13 @@
   .products .card p {
     @apply font-Lato text-gray-600;
   }
-}
 
-@layer components {
-  h2 {
-    @apply font-Lato font-bold text-[36px] text-gray-900;
+  /* ellipse in footer */
+  .ellipse {
+    @apply w-full h-full rounded-full;
+  }
+
+  .border-ellipse {
+    border: 20px solid #42a7c3; /*#8adcf07d*/
   }
 }

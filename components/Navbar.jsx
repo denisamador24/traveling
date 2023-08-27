@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="flex gap-4">
 
         {/* login button */}
-        <button className="w-[88px] h-[34px] font-Lato font-normal bg-orange text-white text-[16px] rounded-[8px]">Sing up</button>
+        <button className="btn btn--primary w-[88px]">Sing up</button>
 
         {/* mobile links */}
         <div className="md:hidden relative">
